@@ -5,7 +5,7 @@ import streamlit as st
 
 load_dotenv()
 
-model = ChatGroq(model="llama-3.3-70b-versatile")
+model = ChatGroq(model="openai/gpt-oss-120b")
 
 st.header("Chatbot")
 
